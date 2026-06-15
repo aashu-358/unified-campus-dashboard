@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sangram",
+    "name": "Sangram (Annual Sports Festival)",
+    "website": "https://iitr.ac.in",
+    "instagram": "https://www.instagram.com/sangram_iitr",
+    "description": "The national-level annual sports festival of IIT Roorkee hosting universities across the country."
+  },
+  {
+    "id": "thomso",
+    "name": "Thomso (Annual Cultural Festival)",
+    "website": "https://thomso.in",
+    "instagram": "https://www.instagram.com/thomso.iitr",
+    "description": "The grand cultural festival of IIT Roorkee, recognized as one of the largest in Northern India."
+  },
+  {
+    "id": "cognizance",
+    "name": "Cognizance (Annual Technical Festival)",
+    "website": "https://cognizance.org.in",
+    "instagram": "https://www.instagram.com/cognizance_iitr",
+    "description": "The technical festival of IIT Roorkee featuring guest lectures, hackathons, and exhibitions."
+  },
+  {
+    "id": "sdslabs",
+    "name": "SDSLabs (Software Development Section)",
+    "website": "https://sdslabs.co",
+    "instagram": "https://www.instagram.com/sdslabs",
+    "description": "Student-run technical group developing web apps, games, and hosting campus workshops."
+  },
+  {
+    "id": "img",
+    "name": "IMG (Information Management Group)",
+    "website": "https://img.iitr.ac.in",
+    "instagram": "https://www.instagram.com/img.iitr",
+    "description": "The student group managing Channel i and maintaining IIT Roorkee's intranet portal."
+  },
+  {
+    "id": "mdg",
+    "name": "MDG (Mobile Development Group)",
+    "website": "https://mdg.space",
+    "instagram": "https://www.instagram.com/mdg_iitr",
+    "description": "Tech group focusing on mobile application development and modern app architectures."
+  },
+  {
+    "id": "pag",
+    "name": "PAG (Programming and Algorithms Group)",
+    "website": "https://pag.sdslabs.co",
+    "instagram": "https://www.instagram.com/pag.iitr",
+    "description": "The competitive programming community under SDSLabs guiding students in DSA and coding contests."
+  },
+  {
+    "id": "infosec",
+    "name": "InfoSecIITR (Information Security Group)",
+    "website": "https://infoseciitr.in",
+    "instagram": "https://www.instagram.com/infoseciitr",
+    "description": "Ethical hacking and cybersecurity enthusiast group hosting Capture the Flag (CTF) challenges."
+  }
+]
