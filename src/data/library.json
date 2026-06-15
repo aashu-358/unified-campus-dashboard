@@ -1,0 +1,88 @@
+[
+  {
+    "isbn": "978-0132350884",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "category": "Computer Science",
+    "availability": {
+      "status": "Available",
+      "location": "MGCL Floor 2, CS Section, Shelf A4",
+      "copyCount": 3
+    },
+    "reservations": []
+  },
+  {
+    "isbn": "978-0201633610",
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "category": "Computer Science",
+    "availability": {
+      "status": "Available",
+      "location": "MGCL Floor 2, CS Section, Shelf B2",
+      "copyCount": 2
+    },
+    "reservations": []
+  },
+  {
+    "isbn": "978-0134685991",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "category": "Computer Science",
+    "availability": {
+      "status": "Checked Out",
+      "location": "MGCL Floor 2, CS Section, Shelf C1",
+      "copyCount": 0
+    },
+    "reservations": [
+      { "studentId": "stud-101", "date": "2026-06-12" }
+    ]
+  },
+  {
+    "isbn": "978-0593077719",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "category": "History",
+    "availability": {
+      "status": "Available",
+      "location": "MGCL Floor 1, Humanities, Shelf H3",
+      "copyCount": 5
+    },
+    "reservations": []
+  },
+  {
+    "isbn": "978-0451524935",
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Fiction",
+    "availability": {
+      "status": "Available",
+      "location": "MGCL Ground Floor, Fiction, Shelf F1",
+      "copyCount": 4
+    },
+    "reservations": []
+  },
+  {
+    "isbn": "978-0345391803",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "category": "Fiction",
+    "availability": {
+      "status": "Available",
+      "location": "MGCL Ground Floor, Fiction, Shelf F2",
+      "copyCount": 1
+    },
+    "reservations": []
+  },
+  {
+    "isbn": "978-0131103628",
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan, Dennis M. Ritchie",
+    "category": "Computer Science",
+    "availability": {
+      "status": "Available",
+      "location": "MGCL Floor 2, Reference Section, Shelf R1",
+      "copyCount": 2
+    },
+    "reservations": []
+  }
+]

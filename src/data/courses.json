@@ -1,0 +1,82 @@
+{
+  "courses": [
+    {
+      "code": "CSN-101",
+      "name": "Introduction to Computer Science and Programming",
+      "department": "Computer Science & Engineering",
+      "syllabus": "Basic syntax, expressions, conditional loops, lists, structures, recursion, pointer syntax, and file inputs/outputs in C++.",
+      "credits": 4,
+      "prerequisites": "None"
+    },
+    {
+      "code": "CSN-212",
+      "name": "Design and Analysis of Algorithms",
+      "department": "Computer Science & Engineering",
+      "syllabus": "Asymptotic complexity, sorting divide & conquer, greedy strategies, dynamic programming graphs, DFS/BFS, minimum spanning trees, and NP-completeness.",
+      "credits": 4,
+      "prerequisites": "CSN-101, CSN-201"
+    },
+    {
+      "code": "CSN-341",
+      "name": "Computer Networks",
+      "department": "Computer Science & Engineering",
+      "syllabus": "OSI & TCP/IP layers, routing algorithms (OSPF, BGP), TCP flow/congestion controls, socket programming, HTTP/DNS, and network security protocols.",
+      "credits": 4,
+      "prerequisites": "CSN-212"
+    },
+    {
+      "code": "MIN-106",
+      "name": "Engineering Graphics",
+      "department": "Mechanical & Industrial Engineering",
+      "syllabus": "Orthographic projections, isometric views, drafting machine parts, and introduction to computer-aided design tools (AutoCAD).",
+      "credits": 3,
+      "prerequisites": "None"
+    }
+  ],
+  "professors": [
+    {
+      "name": "Dr. Balasubramanian Raman",
+      "email": "bala.raman@cs.iitr.ac.in",
+      "office": "James Thomason Building, Room 204",
+      "officeHours": "Monday & Wednesday: 11:00 AM - 12:30 PM"
+    },
+    {
+      "name": "Dr. Durga Toshniwal",
+      "email": "durga.toshniwal@cs.iitr.ac.in",
+      "office": "CSE Department Block, Room 305",
+      "officeHours": "Tuesday & Thursday: 03:00 PM - 05:00 PM"
+    },
+    {
+      "name": "Dr. Sandeep Kumar",
+      "email": "sandeep.kumar@cs.iitr.ac.in",
+      "office": "CSE Department Block, Room 212",
+      "officeHours": "Friday: 10:00 AM - 12:00 PM"
+    }
+  ],
+  "exams": [
+    {
+      "courseCode": "CSN-101",
+      "date": "2026-06-25",
+      "time": "09:00 AM - 12:00 PM",
+      "location": "Convocation Hall, IITR"
+    },
+    {
+      "courseCode": "CSN-212",
+      "date": "2026-06-26",
+      "time": "02:00 PM - 05:00 PM",
+      "location": "Lecture Hall Complex (LHC) Hall A, IITR"
+    },
+    {
+      "courseCode": "CSN-341",
+      "date": "2026-06-27",
+      "time": "09:00 AM - 12:00 PM",
+      "location": "Lecture Hall Complex (LHC) Hall B, IITR"
+    },
+    {
+      "courseCode": "MIN-106",
+      "date": "2026-06-24",
+      "time": "02:00 PM - 05:00 PM",
+      "location": "Drawing Hall, Mechanical Block, IITR"
+    }
+  ]
+}

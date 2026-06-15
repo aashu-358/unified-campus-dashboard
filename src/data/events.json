@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ev-101",
+    "title": "Cognizance 2026 - Hackathon",
+    "description": "The annual technical festival of IIT Roorkee. Join the 36-hour flagship hackathon organized by the Cognizance team in collaboration with top tech giants. Food, goodies, and cash prizes worth 2 Lakh INR!",
+    "category": "Technology",
+    "date": "2026-10-10",
+    "time": "09:00 AM - October 11, 09:00 PM",
+    "location": "Multi Activity Centre (MAC) Auditorium, IITR",
+    "rsvps": ["stud-101"]
+  },
+  {
+    "id": "ev-102",
+    "title": "Thomso 2026 - Battle of Bands",
+    "description": "The annual cultural festival of IIT Roorkee. Experience the largest rock battle in Northern India. Live performances, celebrity nights, and food stalls.",
+    "category": "Social",
+    "date": "2026-10-16",
+    "time": "04:00 PM - 09:00 PM",
+    "location": "Convocation Hall Grounds, IITR",
+    "rsvps": []
+  },
+  {
+    "id": "ev-103",
+    "title": "Introduction to Web3 and Smart Contracts",
+    "description": "A workshop organized by the SDSLabs (Software Development Section) at IIT Roorkee. Learn Solidity programming, deploy your first smart contract, and build a local dApp.",
+    "category": "Technology",
+    "date": "2026-06-25",
+    "time": "05:00 PM - 07:00 PM",
+    "location": "LHC-102, Lecture Hall Complex, IITR",
+    "rsvps": ["stud-101", "stud-202"]
+  },
+  {
+    "id": "ev-104",
+    "title": "Shaurya 2026 - Inter-Bhawan Basketball Finals",
+    "description": "Watch the intense basketball finals between Rajendra Bhawan and Radhakrishnan Bhawan. Show your support and cheer on your hostel teams!",
+    "category": "Sports",
+    "date": "2026-06-20",
+    "time": "06:30 PM - 08:30 PM",
+    "location": "LBS Sports Stadium Basketball Court, IITR",
+    "rsvps": []
+  },
+  {
+    "id": "ev-105",
+    "title": "DSG Placement & Internship Prep Talk",
+    "description": "Digital Software Group (DSG) alumni sharing their experiences on how to crack software engineering internships at top tech product companies. Q&A session included.",
+    "category": "Career",
+    "date": "2026-06-28",
+    "time": "02:00 PM - 04:00 PM",
+    "location": "MAC Hanger, IITR",
+    "rsvps": []
+  }
+]

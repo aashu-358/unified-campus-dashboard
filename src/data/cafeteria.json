@@ -1,0 +1,109 @@
+[
+  {
+    "cafeteriaId": "rajendra-bhawan",
+    "name": "Rajendra Bhawan Mess",
+    "location": "Rajendra Bhawan, East Campus",
+    "busyStatus": "High",
+    "waitTimeMinutes": 15,
+    "menu": {
+      "Monday": {
+        "breakfast": [
+          { "id": "r1", "name": "Aloo Paratha w/ Butter & Curd", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.5 },
+          { "id": "r2", "name": "Boiled Eggs", "price": 0.00, "dietary": ["High-Protein"], "rating": 4.2 },
+          { "id": "r3", "name": "Tea / Milk", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.0 }
+        ],
+        "lunch": [
+          { "id": "r4", "name": "Shahi Paneer w/ Butter Roti", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.6 },
+          { "id": "r5", "name": "Jeera Rice & Dal Makhani", "price": 0.00, "dietary": ["Vegetarian", "Gluten-Free"], "rating": 4.3 },
+          { "id": "r6", "name": "Mix Veg & Boondi Raita", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.1 }
+        ],
+        "dinner": [
+          { "id": "r7", "name": "Paneer Bhurji & Tandoori Roti", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.4 },
+          { "id": "r8", "name": "Kadhai Veg w/ Veg Biryani", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.2 },
+          { "id": "r9", "name": "Gulab Jamun (Dessert)", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.8 }
+        ]
+      },
+      "Tuesday": {
+        "breakfast": [
+          { "id": "rt1", "name": "Poha w/ Sev & Jalebi", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.6 },
+          { "id": "rt2", "name": "Sprouted Moong Salad", "price": 0.00, "dietary": ["Vegetarian", "Vegan", "Gluten-Free"], "rating": 4.3 }
+        ],
+        "lunch": [
+          { "id": "rt3", "name": "Kadi Chawal w/ Aloo Bhujia", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.2 },
+          { "id": "rt4", "name": "Seasonal Veg w/ Tawa Roti", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.0 }
+        ],
+        "dinner": [
+          { "id": "rt5", "name": "Chicken Curry w/ Plain Rice", "price": 0.00, "dietary": ["High-Protein", "Non-Veg"], "rating": 4.7 },
+          { "id": "rt6", "name": "Mushroom Masala w/ Butter Roti (Veg option)", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.3 },
+          { "id": "rt7", "name": "Ice Cream", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.5 }
+        ]
+      }
+    }
+  },
+  {
+    "cafeteriaId": "radhakrishnan-bhawan",
+    "name": "Radhakrishnan Bhawan Mess",
+    "location": "Radhakrishnan Bhawan, West Campus",
+    "busyStatus": "Medium",
+    "waitTimeMinutes": 8,
+    "menu": {
+      "Monday": {
+        "breakfast": [
+          { "id": "rk1", "name": "Idli Sambhar w/ Coconut Chutney", "price": 0.00, "dietary": ["Vegetarian", "Vegan"], "rating": 4.4 },
+          { "id": "rk2", "name": "Oats Porridge", "price": 0.00, "dietary": ["Vegetarian", "Gluten-Free"], "rating": 4.1 }
+        ],
+        "lunch": [
+          { "id": "rk3", "name": "Chana Masala w/ Poori", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.5 },
+          { "id": "rk4", "name": "Veg Pulao & Mix Raita", "price": 0.00, "dietary": ["Vegetarian", "Gluten-Free"], "rating": 4.2 }
+        ],
+        "dinner": [
+          { "id": "rk5", "name": "Egg Curry w/ Jeera Rice", "price": 0.00, "dietary": ["High-Protein", "Eggitarian"], "rating": 4.5 },
+          { "id": "rk6", "name": "Soya Chaap Masala w/ Roti (Veg option)", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.2 }
+        ]
+      },
+      "Tuesday": {
+        "breakfast": [
+          { "id": "rk7", "name": "Bread Butter Jam / Omelette", "price": 0.00, "dietary": [], "rating": 4.0 }
+        ],
+        "lunch": [
+          { "id": "rk8", "name": "Rajma Chawal w/ Salad", "price": 0.00, "dietary": ["Vegetarian", "Gluten-Free"], "rating": 4.6 }
+        ],
+        "dinner": [
+          { "id": "rk9", "name": "Dal Tadka, Mix Veg w/ Butter Roti", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.1 }
+        ]
+      }
+    }
+  },
+  {
+    "cafeteriaId": "cautley-bhawan",
+    "name": "Cautley Bhawan Mess",
+    "location": "Cautley Bhawan, Central Campus",
+    "busyStatus": "Low",
+    "waitTimeMinutes": 3,
+    "menu": {
+      "Monday": {
+        "breakfast": [
+          { "id": "c1", "name": "Veg Cutlet w/ Toast", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.1 }
+        ],
+        "lunch": [
+          { "id": "c2", "name": "Aloo Gobhi w/ Dal Fry & Rice", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.0 }
+        ],
+        "dinner": [
+          { "id": "c3", "name": "Paneer Pasanda w/ Naan & Kheer", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.7 }
+        ]
+      },
+      "Tuesday": {
+        "breakfast": [
+          { "id": "c4", "name": "Uttapam w/ Sambhar", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.3 }
+        ],
+        "lunch": [
+          { "id": "c5", "name": "Veg Kofta, Dal Tadka & Plain Rice", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.1 }
+        ],
+        "dinner": [
+          { "id": "c6", "name": "Butter Chicken w/ Garlic Naan", "price": 0.00, "dietary": ["Non-Veg"], "rating": 4.8 },
+          { "id": "c7", "name": "Dal Makhani w/ Naan (Veg option)", "price": 0.00, "dietary": ["Vegetarian"], "rating": 4.4 }
+        ]
+      }
+    }
+  }
+]
