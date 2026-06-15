@@ -6,6 +6,7 @@ const servers = [
   { name: "cafeteria", path: "mcp-servers/cafeteria.js" },
   { name: "events", path: "mcp-servers/events.js" },
   { name: "academics", path: "mcp-servers/academics.js" },
+  { name: "websearch", path: "mcp-servers/websearch.js" },
 ];
 
 async function testServer(serverInfo) {

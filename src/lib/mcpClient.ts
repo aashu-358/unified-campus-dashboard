@@ -14,6 +14,7 @@ const SERVERS: MCPServerConfig[] = [
   { id: "cafeteria", name: "Cafeteria", scriptPath: "mcp-servers/cafeteria.js" },
   { id: "events", name: "Events", scriptPath: "mcp-servers/events.js" },
   { id: "academics", name: "Academics", scriptPath: "mcp-servers/academics.js" },
+  { id: "websearch", name: "WebSearch", scriptPath: "mcp-servers/websearch.js" },
 ];
 
 class MCPGateway {

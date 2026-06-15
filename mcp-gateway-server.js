@@ -25,6 +25,7 @@ const SERVERS = [
   { id: "cafeteria", path: "mcp-servers/cafeteria.js" },
   { id: "events", path: "mcp-servers/events.js" },
   { id: "academics", path: "mcp-servers/academics.js" },
+  { id: "websearch", path: "mcp-servers/websearch.js" },
 ];
 
 const processes = {};

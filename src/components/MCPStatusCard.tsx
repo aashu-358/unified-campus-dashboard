@@ -92,7 +92,7 @@ export function MCPStatusCard() {
         </h3>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-          {["library", "cafeteria", "events", "academics"].map((serverKey) => {
+          {["library", "cafeteria", "events", "academics", "websearch"].map((serverKey) => {
             const stat = statuses[serverKey] || { online: false };
             const isExpanded = expandedServer === serverKey;
 
