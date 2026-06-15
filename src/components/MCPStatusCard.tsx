@@ -18,7 +18,8 @@ export function MCPStatusCard() {
 
   const fetchStatus = async () => {
     try {
-      const res = await fetch("/api/mcp-status");
+      const gatewayUrl = process.env.NEXT_PUBLIC_GATEWAY_URL || "";
+      const res = await fetch(`${gatewayUrl}/api/mcp-status`);
       const json = await res.json();
       if (json.success) {
         setStatuses(json.statuses);

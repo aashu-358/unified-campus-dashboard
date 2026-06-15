@@ -285,8 +285,11 @@ const server = http.createServer(async (req, res) => {
           }))
         });
 
-        async function streamGemini(inputQuery) {
-          const result = await chat.sendMessageStream(inputQuery);
+        let currentInput = message;
+        let hasFunctionCalls = true;
+
+        while (hasFunctionCalls) {
+          const result = await chat.sendMessageStream(currentInput);
           const pendingCalls = [];
 
           for await (const chunk of result.stream) {
@@ -317,11 +320,11 @@ const server = http.createServer(async (req, res) => {
                 responses.push({ functionResponse: { name, response: { result: { error: err.message } } } });
               }
             }
-            await streamGemini(responses);
+            currentInput = responses;
+          } else {
+            hasFunctionCalls = false;
           }
         }
-
-        await streamGemini(message);
         res.end();
       } catch (err) {
         res.write(`event: error\ndata: ${JSON.stringify(err.message)}\n\n`);

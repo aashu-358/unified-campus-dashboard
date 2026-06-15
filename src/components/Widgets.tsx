@@ -25,7 +25,8 @@ export function Widgets() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/api/widgets");
+      const gatewayUrl = process.env.NEXT_PUBLIC_GATEWAY_URL || "";
+      const res = await fetch(`${gatewayUrl}/api/widgets`);
       const json = await res.json();
       if (json.success) {
         setData(json.data);

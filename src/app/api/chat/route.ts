@@ -149,8 +149,11 @@ export async function POST(req: NextRequest) {
             history: formattedHistory,
           });
 
-          async function executeQueryAndStream(queryText: string | any[]) {
-            const result = await chat.sendMessageStream(queryText);
+          let currentInput: string | any[] = message;
+          let hasFunctionCalls = true;
+
+          while (hasFunctionCalls) {
+            const result = await chat.sendMessageStream(currentInput);
             const pendingCalls: any[] = [];
 
             for await (const chunk of result.stream) {
@@ -165,7 +168,6 @@ export async function POST(req: NextRequest) {
               }
             }
 
-            // If Gemini returned function calls, resolve them and run recursively
             if (pendingCalls.length > 0) {
               const responses: any[] = [];
 
@@ -194,12 +196,11 @@ export async function POST(req: NextRequest) {
                 });
               }
 
-              // Recursively feed the function responses back into Gemini
-              await executeQueryAndStream(responses);
+              currentInput = responses;
+            } else {
+              hasFunctionCalls = false;
             }
           }
-
-          await executeQueryAndStream(message);
           controller.close();
         } catch (err: any) {
           writeLog("ERROR", "ChatRoute", `Streaming error: ${err.message}`);

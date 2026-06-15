@@ -48,7 +48,8 @@ export function AssistantPanel() {
     setMessages(prev => [...prev, { role: "assistant", content: "" }]);
 
     try {
-      const response = await fetch("/api/chat", {
+      const gatewayUrl = process.env.NEXT_PUBLIC_GATEWAY_URL || "";
+      const response = await fetch(`${gatewayUrl}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
