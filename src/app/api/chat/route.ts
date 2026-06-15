@@ -133,8 +133,9 @@ export async function POST(req: NextRequest) {
 
           const toolsConfig = functionDeclarations.length > 0 ? [{ functionDeclarations }] : undefined;
 
+          const modelName = process.env.GEMINI_MODEL || "gemini-2.5-flash";
           const model = genAI.getGenerativeModel({
-            model: "gemini-1.5-flash",
+            model: modelName,
             tools: toolsConfig,
           });
 

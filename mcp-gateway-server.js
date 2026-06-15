@@ -275,7 +275,8 @@ const server = http.createServer(async (req, res) => {
         }));
 
         const toolsConfig = functionDeclarations.length > 0 ? [{ functionDeclarations }] : undefined;
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", tools: toolsConfig });
+        const modelName = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+        const model = genAI.getGenerativeModel({ model: modelName, tools: toolsConfig });
         const chat = model.startChat({
           history: (history || []).map(m => ({
             role: m.role === "assistant" ? "model" : "user",
